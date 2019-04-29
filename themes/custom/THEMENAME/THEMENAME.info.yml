@@ -1,0 +1,16 @@
+name: THEME_NAME
+description: Drupal 8 Starter Theme
+type: theme
+core: 8.x
+libraries:
+  - THEME_NAME/global-css
+  - THEME_NAME/global-js
+stylesheets-remove:
+  - core/themes/stable/css/views/views.module.css
+  - core/themes/stable/css/system/components/align.module.css
+
+
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  main_navigation: 'Main Navigation'

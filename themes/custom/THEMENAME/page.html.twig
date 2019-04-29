@@ -1,0 +1,15 @@
+{# filename: page.html.twig #}
+{# Base Layout Template #}
+
+{% block header %}
+{% include directory ~ '/includes/header.html.twig' %}
+{% endblock %}
+
+{% block content %}
+{{ page.content }}
+{% endblock %}
+
+
+{% block footer %}
+{% include directory ~ '/includes/footer.html.twig' %}
+{% endblock %}
